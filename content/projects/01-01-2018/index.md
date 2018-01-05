@@ -1,9 +1,9 @@
 ---
-customer: "Coastal"
-title: "Coastal - Pic"
+customer: "UX Inc."
+title: "UX inc."
 cover: "./cover.jpeg"
-date: "05.01.2018"
-service: "Photography"
+date: "01.01.2018"
+service: "App Design"
 ---
 
 # Description

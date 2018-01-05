@@ -1,25 +1,22 @@
 import React from "react";
-import PropTypes from "prop-types";
 import Helmet from "react-helmet";
+import Navigation from "../components/Navigation/Navigation";
+import SEO from "../components/Seo/Seo";
+import config from "../../config/SiteConfig";
+import "../utils/starter.scss";
 
-import "./index.css";
-
-const TemplateWrapper = ({ children }) => (
-  <div>
-    <Helmet
-      title="Gatsby Portfolio v1"
-      meta={[
-        { name: "author", content: "authorname" },
-        { name: "keywords", content: "sample, something" }
-      ]}
-    />
-
-    <div>{children()}</div>
-  </div>
-);
-
-TemplateWrapper.propTypes = {
-  children: PropTypes.func
-};
-
-export default TemplateWrapper;
+export default class MainLayout extends React.Component {
+  render() {
+    const { children } = this.props;
+    return (
+      <div className="layout">
+        <Helmet>
+          <title>{config.siteTitle}</title>
+        </Helmet>
+        <SEO />
+        <Navigation />
+        {children()}
+      </div>
+    );
+  }
+}
