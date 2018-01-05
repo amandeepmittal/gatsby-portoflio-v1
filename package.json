@@ -35,6 +35,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "deploy": "gatsby build && gh-pages -d public -b master",
     "format":
       "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
