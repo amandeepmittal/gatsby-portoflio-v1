@@ -8,7 +8,7 @@ module.exports = {
     title: `Gatsby Portfolio v1`
   },
   // pathPrefix: config.pathPrefix,
-  pathPrefix: "/gatsby-portfolio-v1",
+  pathPrefix: "/",
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
