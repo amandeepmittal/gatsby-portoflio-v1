@@ -16,7 +16,6 @@
     "gatsby-plugin-postcss-sass": "1.0.15",
     "gatsby-plugin-react-helmet": "^1.0.8",
     "gatsby-plugin-sharp": "1.6.24",
-    "gatsby-plugin-sitemap": "1.2.9",
     "gatsby-plugin-typography": "1.7.10",
     "gatsby-remark-external-links": "0.0.4",
     "gatsby-remark-images": "1.5.36",
