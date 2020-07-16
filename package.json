@@ -42,7 +42,7 @@
   "devDependencies": {
     "autoprefixer": "7.2.3",
     "babel-plugin-lodash": "3.3.2",
-    "lodash": "4.17.4",
+    "lodash": "4.17.19",
     "lodash-webpack-plugin": "0.11.4",
     "prettier": "^1.9.2",
     "rucksack-css": "1.0.2"
